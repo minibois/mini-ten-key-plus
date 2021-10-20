@@ -1,0 +1,12 @@
+[submodule "Libraries/mini-random-library"]
+	path = Libraries/mini-random-library
+	url = https://github.com/minibois/mini-random-library
+[submodule "Libraries/mini-MX-Tweaks.pretty"]
+	path = Libraries/mini-MX-Tweaks.pretty
+	url = https://github.com/minibois/mini-MX-Tweaks.pretty
+[submodule "Libraries/mini-Logos.pretty"]
+	path = Libraries/mini-Logos.pretty
+	url = https://github.com/minibois/mini-Logos.pretty
+[submodule "Libraries/mini-general-tweaks.pretty"]
+	path = Libraries/mini-general-tweaks.pretty
+	url = https://github.com/minibois/mini-general-tweaks.pretty
