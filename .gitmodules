@@ -10,3 +10,6 @@
 [submodule "Libraries/mini-general-tweaks.pretty"]
 	path = Libraries/mini-general-tweaks.pretty
 	url = https://github.com/minibois/mini-general-tweaks.pretty
+[submodule "Libraries/ProMicroKiCad"]
+	path = Libraries/ProMicroKiCad
+	url = https://github.com/Biacco42/ProMicroKiCad
