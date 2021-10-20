@@ -13,3 +13,6 @@
 [submodule "Libraries/ProMicroKiCad"]
 	path = Libraries/ProMicroKiCad
 	url = https://github.com/Biacco42/ProMicroKiCad
+[submodule "Libraries/MX_Alps_Hybrid"]
+	path = Libraries/MX_Alps_Hybrid
+	url = https://github.com/ai03-2725/MX_Alps_Hybrid
