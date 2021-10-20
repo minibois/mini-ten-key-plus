@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name mini_random_library)(type Legacy)(uri ${KIPRJMOD}/Libraries/mini-random-library/mini_random_library.lib)(options "")(descr ""))
+  (lib (name promicro)(type Legacy)(uri ${KIPRJMOD}/Libraries/ProMicroKiCad/promicro_library/promicro.lib)(options "")(descr ""))
+)
