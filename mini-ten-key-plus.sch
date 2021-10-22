@@ -388,26 +388,6 @@ F 3 "" H 6650 1050 50  0001 C CNN
 	1    6650 1050
 	1    0    0    -1  
 $EndComp
-Text GLabel 3650 1450 0    50   Input ~ 0
-IO
-Text GLabel 3650 1550 0    50   Input ~ 0
-IO
-Text GLabel 3650 1650 0    50   Input ~ 0
-IO
-Text GLabel 3650 1750 0    50   Input ~ 0
-IO
-Text GLabel 3650 1850 0    50   Input ~ 0
-IO
-Text GLabel 3650 1950 0    50   Input ~ 0
-IO
-Text GLabel 5050 1350 2    50   Input ~ 0
-IO
-Text GLabel 5050 1250 2    50   Input ~ 0
-IO
-Text GLabel 5050 1550 2    50   Input ~ 0
-IO
-Text GLabel 5050 1450 2    50   Input ~ 0
-IO
 Connection ~ 2550 3000
 Connection ~ 2100 3000
 Connection ~ 1650 3000
@@ -814,4 +794,22 @@ F 3 "" H 425 1075 60  0001 C CNN
 	1    1050 1100
 	1    0    0    -1  
 $EndComp
+Text GLabel 5050 1350 2    50   Input ~ 0
+COL3
+Text GLabel 3650 1550 0    50   Input ~ 0
+COL0
+Text GLabel 5050 1450 2    50   Input ~ 0
+ROW1
+Text GLabel 3650 1450 0    50   Input ~ 0
+ROW0
+Text GLabel 3650 1950 0    50   Input ~ 0
+ROW2
+Text GLabel 3650 1750 0    50   Input ~ 0
+ROW4
+Text GLabel 3650 1850 0    50   Input ~ 0
+ROW3
+Text GLabel 3650 1650 0    50   Input ~ 0
+COL1
+Text GLabel 5050 1250 2    50   Input ~ 0
+COL2
 $EndSCHEMATC
