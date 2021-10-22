@@ -28,12 +28,12 @@ $EndComp
 $Comp
 L Switch:SW_Push SW0
 U 1 1 6170AA8C
-P 6650 1650
-F 0 "SW0" H 6650 1935 50  0000 C CNN
-F 1 "SW_Push" H 6650 1844 50  0000 C CNN
-F 2 "random-keyboard-parts:SKQG-1155865" H 6650 1850 50  0001 C CNN
-F 3 "~" H 6650 1850 50  0001 C CNN
-	1    6650 1650
+P 6450 1050
+F 0 "SW0" H 6450 1335 50  0000 C CNN
+F 1 "SW_Push" H 6450 1244 50  0000 C CNN
+F 2 "random-keyboard-parts:SKQG-1155865" H 6450 1250 50  0001 C CNN
+F 3 "~" H 6450 1250 50  0001 C CNN
+	1    6450 1050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -781,4 +781,37 @@ Wire Wire Line
 Wire Wire Line
 	2250 2550 2300 2550
 Connection ~ 2300 2550
+Text GLabel 6250 1050 0    50   Input ~ 0
+RESET
+$Comp
+L power:GND #PWR0104
+U 1 1 61742342
+P 6650 1050
+F 0 "#PWR0104" H 6650 800 50  0001 C CNN
+F 1 "GND" H 6655 877 50  0000 C CNN
+F 2 "" H 6650 1050 50  0001 C CNN
+F 3 "" H 6650 1050 50  0001 C CNN
+	1    6650 1050
+	1    0    0    -1  
+$EndComp
+Text GLabel 3650 1450 0    50   Input ~ 0
+IO
+Text GLabel 3650 1550 0    50   Input ~ 0
+IO
+Text GLabel 3650 1650 0    50   Input ~ 0
+IO
+Text GLabel 3650 1750 0    50   Input ~ 0
+IO
+Text GLabel 3650 1850 0    50   Input ~ 0
+IO
+Text GLabel 3650 1950 0    50   Input ~ 0
+IO
+Text GLabel 5050 1350 2    50   Input ~ 0
+IO
+Text GLabel 5050 1250 2    50   Input ~ 0
+IO
+Text GLabel 5050 1550 2    50   Input ~ 0
+IO
+Text GLabel 5050 1450 2    50   Input ~ 0
+IO
 $EndSCHEMATC
