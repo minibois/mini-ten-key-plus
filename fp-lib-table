@@ -3,4 +3,5 @@
   (lib (name mini-Logos)(type KiCad)(uri ${KIPRJMOD}/Libraries/mini-Logos.pretty)(options "")(descr ""))
   (lib (name mini-MX-Tweaks)(type KiCad)(uri ${KIPRJMOD}/Libraries/mini-MX-Tweaks.pretty)(options "")(descr ""))
   (lib (name promicro)(type KiCad)(uri ${KIPRJMOD}/Libraries/ProMicroKiCad/promicro.pretty)(options "")(descr ""))
+  (lib (name random-keyboard-parts)(type KiCad)(uri ${KIPRJMOD}/Libraries/random-keyboard-parts.pretty)(options "")(descr ""))
 )
