@@ -335,7 +335,7 @@ U 1 1 6171DB05
 P 1350 3750
 F 0 "MX21" H 1324 3973 60  0000 C CNN
 F 1 "MX-NoLED" H 1324 3899 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-2U-NoLED_tweak" H 725 3725 60  0001 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-2U-NoLED_FLIPPED_tweak" H 725 3725 60  0001 C CNN
 F 3 "" H 725 3725 60  0001 C CNN
 	1    1350 3750
 	1    0    0    -1  
@@ -798,18 +798,112 @@ Text GLabel 3650 1550 0    50   Input ~ 0
 COL3
 Text GLabel 5050 1350 2    50   Input ~ 0
 COL0
-Text GLabel 5050 1450 2    50   Input ~ 0
+Text GLabel 5050 1650 2    50   Input ~ 0
 ROW1
 Text GLabel 3650 1450 0    50   Input ~ 0
 ROW0
-Text GLabel 5050 1750 2    50   Input ~ 0
+Text GLabel 3650 1950 0    50   Input ~ 0
 ROW2
-Text GLabel 5050 1550 2    50   Input ~ 0
+Text GLabel 3650 1750 0    50   Input ~ 0
 ROW4
-Text GLabel 5050 1650 2    50   Input ~ 0
+Text GLabel 3650 1850 0    50   Input ~ 0
 ROW3
 Text GLabel 5050 1250 2    50   Input ~ 0
 COL1
 Text GLabel 3650 1650 0    50   Input ~ 0
 COL2
+NoConn ~ 3650 850 
+NoConn ~ 3650 950 
+NoConn ~ 3650 1250
+NoConn ~ 3650 1350
+NoConn ~ 5050 1850
+NoConn ~ 5050 1950
+$Comp
+L Mechanical:MountingHole_Pad H0
+U 1 1 617941C0
+P 3650 2550
+F 0 "H0" H 3750 2599 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3750 2508 50  0000 L CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 3650 2550 50  0001 C CNN
+F 3 "~" H 3650 2550 50  0001 C CNN
+	1    3650 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 61795197
+P 3650 2850
+F 0 "H1" H 3750 2899 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3750 2808 50  0000 L CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 3650 2850 50  0001 C CNN
+F 3 "~" H 3650 2850 50  0001 C CNN
+	1    3650 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 6179748B
+P 3650 3150
+F 0 "H2" H 3750 3199 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3750 3108 50  0000 L CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 3650 3150 50  0001 C CNN
+F 3 "~" H 3650 3150 50  0001 C CNN
+	1    3650 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 617998EF
+P 3650 3450
+F 0 "H3" H 3750 3499 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3750 3408 50  0000 L CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 3650 3450 50  0001 C CNN
+F 3 "~" H 3650 3450 50  0001 C CNN
+	1    3650 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 2650 3500 2650
+Wire Wire Line
+	3500 2650 3500 2950
+Wire Wire Line
+	3650 3550 3500 3550
+Wire Wire Line
+	3650 3250 3500 3250
+Connection ~ 3500 3250
+Wire Wire Line
+	3500 3250 3500 3550
+Wire Wire Line
+	3650 2950 3500 2950
+Connection ~ 3500 2950
+Wire Wire Line
+	3500 2950 3500 3250
+$Comp
+L power:GND #PWR0105
+U 1 1 617A50D9
+P 3500 3850
+F 0 "#PWR0105" H 3500 3600 50  0001 C CNN
+F 1 "GND" H 3505 3677 50  0000 C CNN
+F 2 "" H 3500 3850 50  0001 C CNN
+F 3 "" H 3500 3850 50  0001 C CNN
+	1    3500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 617BCB5D
+P 3650 3750
+F 0 "H4" H 3750 3799 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3750 3708 50  0000 L CNN
+F 2 "mini-general-tweaks:MountingHole_2.2mm_M2_Pad_tweaked" H 3650 3750 50  0001 C CNN
+F 3 "~" H 3650 3750 50  0001 C CNN
+	1    3650 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3550 3500 3850
+Wire Wire Line
+	3500 3850 3650 3850
+Connection ~ 3500 3550
+Connection ~ 3500 3850
 $EndSCHEMATC
