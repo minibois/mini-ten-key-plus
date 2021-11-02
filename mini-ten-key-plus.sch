@@ -880,10 +880,6 @@ Text GLabel 1250 1150 1    50   Input ~ 0
 COL0
 Text GLabel 900  3100 0    50   Input ~ 0
 ROW2
-Text GLabel 900  2450 0    50   Input ~ 0
-ROW1
-Text GLabel 900  1800 0    50   Input ~ 0
-ROW0
 Wire Wire Line
 	1000 3100 900  3100
 Wire Wire Line
@@ -988,18 +984,10 @@ Connection ~ 1000 3750
 Wire Wire Line
 	1000 4400 1450 4400
 Connection ~ 1000 4400
-Text Notes 600  800  0    157  ~ 31
-Matrix
-Wire Notes Line
-	3200 850  550  850 
-Wire Notes Line
-	550  550  3200 550 
 Wire Notes Line
 	550  4500 3200 4500
 Wire Notes Line
 	3200 550  3200 4500
-Wire Notes Line
-	550  550  550  4500
 Text Notes 3300 2750 0    157  ~ 31
 Reset button
 Wire Notes Line
@@ -1083,9 +1071,7 @@ Microcontroller
 Text GLabel 3550 1900 0    50   Input ~ 0
 COL4
 NoConn ~ 4950 2100
-NoConn ~ 4950 2000
-NoConn ~ 4950 1800
-Text GLabel 4950 1900 2    50   Input ~ 0
+Text GLabel 4950 2000 2    50   Input ~ 0
 ROW1
 NoConn ~ 4950 2200
 NoConn ~ 3550 1700
@@ -1164,4 +1150,54 @@ F 3 "" H 4350 900 60  0000 C CNN
 	1    4250 1950
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:Rotary_Encoder_Switch RE0
+U 1 1 61846C32
+P 5750 3000
+F 0 "RE0" H 5750 3367 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 5750 3276 50  0000 C CNN
+F 2 "mini-general-tweaks:RotaryEncoder_Alps_EC11E-Switch-Vertical-EDIT" H 5600 3160 50  0001 C CNN
+F 3 "~" H 5750 3260 50  0001 C CNN
+	1    5750 3000
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	550  550  550  4500
+Wire Notes Line
+	550  550  3200 550 
+Wire Notes Line
+	3200 850  550  850 
+Text Notes 600  800  0    157  ~ 31
+Matrix
+Text GLabel 900  1800 0    50   Input ~ 0
+ROW0
+Text GLabel 900  2450 0    50   Input ~ 0
+ROW1
+Text GLabel 6050 3100 2    50   Input ~ 0
+COL0
+$Comp
+L power:GND #PWR0101
+U 1 1 618707FF
+P 5150 3000
+F 0 "#PWR0101" H 5150 2750 50  0001 C CNN
+F 1 "GND" H 5155 2827 50  0000 C CNN
+F 2 "" H 5150 3000 50  0001 C CNN
+F 3 "" H 5150 3000 50  0001 C CNN
+	1    5150 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3000 5450 3000
+Text GLabel 6050 2900 2    50   Input ~ 0
+ROW0_RE
+Text GLabel 1000 1600 0    50   Input ~ 0
+ROW0_RE
+Text GLabel 4950 1900 2    50   Input ~ 0
+RE+
+Text GLabel 5450 3100 0    50   Input ~ 0
+RE-
+Text GLabel 5450 2900 0    50   Input ~ 0
+RE+
+Text GLabel 4950 1800 2    50   Input ~ 0
+RE-
 $EndSCHEMATC
