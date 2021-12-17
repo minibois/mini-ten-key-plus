@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Ten Key plus",
+    "author": "minibois, 2021",
+    "notes": "Keyboard source: https://github.com/minibois/ten-key-plus",
+    "switchMount": "cherry",
+    "pcb": true
+  },
+  [
+    {
+      "c": "#d15252",
+      "a": 5
+    },
+    "Rotary Encod.",
+    {
+      "c": "#cccccc",
+      "a": 4
+    },
+    "Num Lock",
+    "/",
+    "*",
+    "-"
+  ],
+  [
+    "Back\n\n\n\n\n\nSpace",
+    "7\nHome",
+    "8\n↑",
+    "9\nPgUp",
+    {
+      "c": "#f5c856",
+      "h": 2
+    },
+    "+",
+    {
+      "x": 0.25,
+      "a": 7
+    },
+    ""
+  ],
+  [
+    {
+      "c": "#cccccc",
+      "a": 4
+    },
+    "(",
+    "4\n←",
+    "5",
+    "6\n→",
+    {
+      "x": 1.25,
+      "c": "#f5c856",
+      "a": 7
+    },
+    ""
+  ],
+  [
+    {
+      "c": "#cccccc",
+      "a": 4
+    },
+    ")",
+    "1\nEnd",
+    "2\n↓",
+    "3\nPgDn",
+    {
+      "c": "#48b052",
+      "h": 2
+    },
+    "Enter",
+    {
+      "x": 0.25,
+      "a": 7
+    },
+    ""
+  ],
+  [
+    {
+      "c": "#cccccc"
+    },
+    "",
+    {
+      "c": "#54afe3",
+      "a": 4,
+      "w": 2
+    },
+    "0\nIns",
+    {
+      "c": "#cccccc"
+    },
+    ".\nDel",
+    {
+      "x": 1.25,
+      "c": "#48b052",
+      "a": 7
+    },
+    ""
+  ],
+  [
+    {
+      "y": 0.25,
+      "c": "#d15252",
+      "a": 5
+    },
+    "MX Switch",
+    {
+      "c": "#54afe3",
+      "a": 4
+    },
+    "0\nIns",
+    "00"
+  ]
+]
