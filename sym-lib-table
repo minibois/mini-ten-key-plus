@@ -3,4 +3,5 @@
   (lib (name promicro)(type Legacy)(uri ${KIPRJMOD}/Libraries/ProMicroKiCad/promicro_library/promicro.lib)(options "")(descr ""))
   (lib (name MX_Alps_Hybrid)(type Legacy)(uri "${KIPRJMOD}/Libraries/MX_Alps_Hybrid/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
   (lib (name random-keyboard-parts)(type Legacy)(uri "${KIPRJMOD}/Libraries/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
+  (lib (name mini-ten-key-plus-rescue)(type Legacy)(uri ${KIPRJMOD}/mini-ten-key-plus-rescue.lib)(options "")(descr ""))
 )

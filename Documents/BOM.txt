@@ -1,0 +1,20 @@
+Qty		Product					Description			Schematic	Notes
+1		mini_Ten_Key_Plus PCB	PCB					N/A			To be purchased from your preffered PCB manufacturer
+1		Arduino Pro Micro		Microcontroller		U0			Pro Micro or equivalent (i.e. Elite-C)
+1		MCU Hotswap sockets		Microcontroller		N/A			(Optional) Hotswap socket for microcontroller, to allow for the removal of the MCU.
+22-25	1N4148					THT Diode			D0-D24		Either this or 1N4148W
+22-25	1N4148W					SMD Diode			D0-D24		Either this or 1N4148
+22-25	MX Switches									MX0-MX24	MX (or MX-like) switches
+1		RS187R05A2DSMTRT		Reset Switch		SW0
+1		ALP-ENC-IND-000			Rotary Encoder		RE0			(Optional)
+1 		Stabilizers												(Optional) Stabilizers for 2u keys
+1		Lubricant												(Optional) to make the stabilizers feel better
+22-25	Keycaps													A set appropriate for the chosen layout
+1		USB type C cable										USB 2.0 or better
+		3D printed case 										Refer to the assembly guide for additional information
+		3D printed plate										Refer to the assembly guide for additional information
+5		Heat Insert												M2, 3mm diameter, 3mm length heat inserts
+5		Standoffs												M2, 3mm height
+5		Screw													M2, 4mm height
+2		Case feet												(Optional) feet to prop up the case
+		Assembly tools/supplies									Refer to the assembly guide for a list of tools and supplies needed 
