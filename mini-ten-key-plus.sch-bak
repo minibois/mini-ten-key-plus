@@ -26,7 +26,7 @@ F 3 "~" H 3650 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	500  6500 3150 6500
+	500  2400 3150 2400
 $Comp
 L mini-ten-key-plus-rescue:mini-TKP-Logo-mini_random_library #G?
 U 1 1 619BE032
@@ -38,281 +38,140 @@ F 3 "" H 4450 5250 50  0001 C CNN
 	1    4450 5250
 	1    0    0    -1  
 $EndComp
-Text GLabel 2450 5850 2    50   Input ~ 0
+Text GLabel 2450 1750 2    50   Input ~ 0
 RE-
-Text GLabel 2450 5950 2    50   Input ~ 0
+Text GLabel 2450 1850 2    50   Input ~ 0
 RE+
-Text GLabel 950  1600 0    50   Input ~ 0
+Text GLabel 950  3550 0    50   Input ~ 0
 ROW0_RE
-Text GLabel 850  2450 0    50   Input ~ 0
+Text GLabel 850  4400 0    50   Input ~ 0
 ROW1
-Text GLabel 850  1800 0    50   Input ~ 0
+Text GLabel 850  3750 0    50   Input ~ 0
 ROW0
-Text Notes 550  750  0    157  ~ 31
+Text Notes 550  2700 0    157  ~ 31
 Matrix
 Wire Notes Line
-	3150 800  500  800 
+	3150 2750 500  2750
 Wire Notes Line
-	500  500  3150 500 
+	500  2450 3150 2450
 Wire Notes Line
-	500  500  500  4550
+	500  2450 500  6500
 $Comp
 L promicro:ProMicro U0
 U 1 1 61709248
-P 1750 6000
-F 0 "U0" H 1750 7037 60  0000 C CNN
-F 1 "ProMicro" H 1750 6931 60  0000 C CNN
-F 2 "promicro:ProMicro" H 1850 4950 60  0001 C CNN
-F 3 "" H 1850 4950 60  0000 C CNN
-	1    1750 6000
+P 1750 1900
+F 0 "U0" H 1750 2937 60  0000 C CNN
+F 1 "ProMicro" H 1750 2831 60  0000 C CNN
+F 2 "promicro:ProMicro" H 1850 850 60  0001 C CNN
+F 3 "" H 1850 850 60  0000 C CNN
+	1    1750 1900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1050 5550 1050 5450
+	1050 1450 1050 1350
 Wire Wire Line
-	1050 5450 950  5450
-Connection ~ 1050 5450
+	1050 1350 950  1350
+Connection ~ 1050 1350
 $Comp
 L power:GND #PWR01
 U 1 1 617647AC
-P 950 5450
-F 0 "#PWR01" H 950 5200 50  0001 C CNN
-F 1 "GND" H 955 5277 50  0000 C CNN
-F 2 "" H 950 5450 50  0001 C CNN
-F 3 "" H 950 5450 50  0001 C CNN
-	1    950  5450
+P 950 1350
+F 0 "#PWR01" H 950 1100 50  0001 C CNN
+F 1 "GND" H 955 1177 50  0000 C CNN
+F 2 "" H 950 1350 50  0001 C CNN
+F 3 "" H 950 1350 50  0001 C CNN
+	1    950  1350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR00
 U 1 1 61764FB8
-P 2800 5350
-F 0 "#PWR00" H 2800 5100 50  0001 C CNN
-F 1 "GND" H 2805 5177 50  0000 C CNN
-F 2 "" H 2800 5350 50  0001 C CNN
-F 3 "" H 2800 5350 50  0001 C CNN
-	1    2800 5350
+P 2800 1250
+F 0 "#PWR00" H 2800 1000 50  0001 C CNN
+F 1 "GND" H 2805 1077 50  0000 C CNN
+F 2 "" H 2800 1250 50  0001 C CNN
+F 3 "" H 2800 1250 50  0001 C CNN
+	1    2800 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR03
 U 1 1 61767967
-P 2950 5550
-F 0 "#PWR03" H 2950 5400 50  0001 C CNN
-F 1 "VCC" H 2967 5723 50  0000 C CNN
-F 2 "" H 2950 5550 50  0001 C CNN
-F 3 "" H 2950 5550 50  0001 C CNN
-	1    2950 5550
+P 2950 1450
+F 0 "#PWR03" H 2950 1300 50  0001 C CNN
+F 1 "VCC" H 2967 1623 50  0000 C CNN
+F 2 "" H 2950 1450 50  0001 C CNN
+F 3 "" H 2950 1450 50  0001 C CNN
+	1    2950 1450
 	1    0    0    -1  
 $EndComp
-Text GLabel 2450 5450 2    50   Input ~ 0
+Text GLabel 2450 1350 2    50   Input ~ 0
 RESET
 Wire Wire Line
-	2450 5350 2800 5350
+	2450 1250 2800 1250
 Wire Wire Line
-	2450 5550 2950 5550
-NoConn ~ 2450 5250
-Text GLabel 1050 6050 0    50   Input ~ 0
+	2450 1450 2950 1450
+NoConn ~ 2450 1150
+Text GLabel 1050 1950 0    50   Input ~ 0
 COL3
-Text GLabel 2450 5750 2    50   Input ~ 0
+Text GLabel 2450 1650 2    50   Input ~ 0
 COL0
-Text GLabel 1050 5850 0    50   Input ~ 0
+Text GLabel 1050 1750 0    50   Input ~ 0
 ROW0
-Text GLabel 1050 6350 0    50   Input ~ 0
+Text GLabel 1050 2250 0    50   Input ~ 0
 ROW2
-Text GLabel 1050 6150 0    50   Input ~ 0
+Text GLabel 1050 2050 0    50   Input ~ 0
 ROW4
-Text GLabel 1050 6250 0    50   Input ~ 0
+Text GLabel 1050 2150 0    50   Input ~ 0
 ROW3
-Text GLabel 2450 5650 2    50   Input ~ 0
+Text GLabel 2450 1550 2    50   Input ~ 0
 COL1
-Text GLabel 2450 6350 2    50   Input ~ 0
+Text GLabel 2450 2250 2    50   Input ~ 0
 COL2
-NoConn ~ 1050 5250
-NoConn ~ 1050 5350
-NoConn ~ 1050 5650
-NoConn ~ 1050 5750
-NoConn ~ 2450 6250
-Text GLabel 2450 6050 2    50   Input ~ 0
+NoConn ~ 1050 1150
+NoConn ~ 1050 1250
+NoConn ~ 1050 1550
+NoConn ~ 1050 1650
+NoConn ~ 2450 2150
+Text GLabel 2450 1950 2    50   Input ~ 0
 ROW1
-NoConn ~ 2450 6150
-Text GLabel 1050 5950 0    50   Input ~ 0
+NoConn ~ 2450 2050
+Text GLabel 1050 1850 0    50   Input ~ 0
 COL4
-Text Notes 550  4850 0    157  ~ 31
+Text Notes 550  750  0    157  ~ 31
 Microcontroller
 Wire Notes Line
-	500  4900 3150 4900
+	500  800  3150 800 
 Wire Notes Line
-	3150 4600 500  4600
+	3150 500  500  500 
 Wire Notes Line
-	500  4600 500  6500
+	500  500  500  2400
 Wire Notes Line
-	3150 4600 3150 6500
+	3150 500  3150 2400
 Wire Notes Line
-	3150 500  3150 4550
+	3150 2450 3150 6500
 Wire Notes Line
-	500  4550 3150 4550
+	500  6500 3150 6500
+Connection ~ 950  6350
+Wire Wire Line
+	950  6350 1400 6350
+Connection ~ 950  5700
+Wire Wire Line
+	950  5700 1400 5700
+Connection ~ 950  5050
+Wire Wire Line
+	950  5050 1400 5050
 Connection ~ 950  4400
 Wire Wire Line
 	950  4400 1400 4400
 Connection ~ 950  3750
 Wire Wire Line
 	950  3750 1400 3750
-Connection ~ 950  3100
-Wire Wire Line
-	950  3100 1400 3100
-Connection ~ 950  2450
-Wire Wire Line
-	950  2450 1400 2450
-Connection ~ 950  1800
-Wire Wire Line
-	950  1800 1400 1800
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX0
 U 1 1 617CCEFE
-P 1050 1450
-F 0 "MX0" H 1024 1673 60  0000 C CNN
-F 1 "MX-NoLED" H 1024 1599 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 425 1425 60  0001 C CNN
-F 3 "" H 425 1425 60  0001 C CNN
-	1    1050 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D0
-U 1 1 617CCEF8
-P 950 1700
-F 0 "D0" V 977 1632 39  0000 R CNN
-F 1 "D_Small" V 913 1632 26  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 950 1700 50  0001 C CNN
-F 3 "~" V 950 1700 50  0001 C CNN
-	1    950  1700
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	950  1600 1000 1600
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX5
-U 1 1 617CCEF1
-P 1050 2100
-F 0 "MX5" H 1024 2323 60  0000 C CNN
-F 1 "MX-NoLED" H 1024 2249 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 425 2075 60  0001 C CNN
-F 3 "" H 425 2075 60  0001 C CNN
-	1    1050 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D5
-U 1 1 617CCEEB
-P 950 2350
-F 0 "D5" V 977 2282 39  0000 R CNN
-F 1 "D_Small" V 913 2282 26  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 950 2350 50  0001 C CNN
-F 3 "~" V 950 2350 50  0001 C CNN
-	1    950  2350
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	950  2250 1000 2250
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX10
-U 1 1 617CCEE4
-P 1050 2750
-F 0 "MX10" H 1024 2973 60  0000 C CNN
-F 1 "MX-NoLED" H 1024 2899 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 425 2725 60  0001 C CNN
-F 3 "" H 425 2725 60  0001 C CNN
-	1    1050 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D10
-U 1 1 617CCEDE
-P 950 3000
-F 0 "D10" V 977 2932 39  0000 R CNN
-F 1 "D_Small" V 913 2932 26  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 950 3000 50  0001 C CNN
-F 3 "~" V 950 3000 50  0001 C CNN
-	1    950  3000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	950  2900 1000 2900
-Connection ~ 1200 1400
-Wire Wire Line
-	1200 1400 1200 1150
-Connection ~ 1200 2050
-Wire Wire Line
-	1200 2050 1200 1400
-Connection ~ 1200 2700
-Wire Wire Line
-	1200 2700 1200 2050
-Wire Wire Line
-	1200 3350 1200 2700
-Wire Wire Line
-	950  1800 850  1800
-Wire Wire Line
-	950  2450 850  2450
-Wire Wire Line
-	950  3100 850  3100
-Text GLabel 850  3100 0    50   Input ~ 0
-ROW2
-Text GLabel 1200 1150 1    50   Input ~ 0
-COL0
-Connection ~ 1200 3350
-Text GLabel 850  4400 0    50   Input ~ 0
-ROW4
-Text GLabel 850  3750 0    50   Input ~ 0
-ROW3
-Wire Wire Line
-	950  4400 850  4400
-Wire Wire Line
-	950  3750 850  3750
-Wire Wire Line
-	1200 4000 1200 3350
-Wire Wire Line
-	950  4200 1000 4200
-$Comp
-L Device:D_Small D20
-U 1 1 617CCEB8
-P 950 4300
-F 0 "D20" V 977 4232 39  0000 R CNN
-F 1 "D_Small" V 913 4232 26  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 950 4300 50  0001 C CNN
-F 3 "~" V 950 4300 50  0001 C CNN
-	1    950  4300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX20
-U 1 1 617CCEB2
-P 1050 4050
-F 0 "MX20" H 1024 4273 60  0000 C CNN
-F 1 "MX-NoLED" H 1024 4199 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 425 4025 60  0001 C CNN
-F 3 "" H 425 4025 60  0001 C CNN
-	1    1050 4050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	950  3550 1000 3550
-$Comp
-L Device:D_Small D15
-U 1 1 617CCEAB
-P 950 3650
-F 0 "D15" V 977 3582 39  0000 R CNN
-F 1 "D_Small" V 913 3582 26  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 950 3650 50  0001 C CNN
-F 3 "~" V 950 3650 50  0001 C CNN
-	1    950  3650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX15
-U 1 1 617CCEA5
 P 1050 3400
-F 0 "MX15" H 1024 3623 60  0000 C CNN
+F 0 "MX0" H 1024 3623 60  0000 C CNN
 F 1 "MX-NoLED" H 1024 3549 20  0000 C CNN
 F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 425 3375 60  0001 C CNN
 F 3 "" H 425 3375 60  0001 C CNN
@@ -320,598 +179,210 @@ F 3 "" H 425 3375 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L Device:D_Small D0
+U 1 1 617CCEF8
+P 950 3650
+F 0 "D0" V 977 3582 39  0000 R CNN
+F 1 "D_Small" V 913 3582 26  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 950 3650 50  0001 C CNN
+F 3 "~" V 950 3650 50  0001 C CNN
+	1    950  3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	950  3550 1000 3550
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX5
+U 1 1 617CCEF1
+P 1050 4050
+F 0 "MX5" H 1024 4273 60  0000 C CNN
+F 1 "MX-NoLED" H 1024 4199 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 425 4025 60  0001 C CNN
+F 3 "" H 425 4025 60  0001 C CNN
+	1    1050 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D5
+U 1 1 617CCEEB
+P 950 4300
+F 0 "D5" V 977 4232 39  0000 R CNN
+F 1 "D_Small" V 913 4232 26  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 950 4300 50  0001 C CNN
+F 3 "~" V 950 4300 50  0001 C CNN
+	1    950  4300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	950  4200 1000 4200
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX10
+U 1 1 617CCEE4
+P 1050 4700
+F 0 "MX10" H 1024 4923 60  0000 C CNN
+F 1 "MX-NoLED" H 1024 4849 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 425 4675 60  0001 C CNN
+F 3 "" H 425 4675 60  0001 C CNN
+	1    1050 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D10
+U 1 1 617CCEDE
+P 950 4950
+F 0 "D10" V 977 4882 39  0000 R CNN
+F 1 "D_Small" V 913 4882 26  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 950 4950 50  0001 C CNN
+F 3 "~" V 950 4950 50  0001 C CNN
+	1    950  4950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	950  4850 1000 4850
+Connection ~ 1200 3350
+Wire Wire Line
+	1200 3350 1200 3100
+Connection ~ 1200 4000
+Wire Wire Line
+	1200 4000 1200 3350
+Connection ~ 1200 4650
+Wire Wire Line
+	1200 4650 1200 4000
+Wire Wire Line
+	1200 5300 1200 4650
+Wire Wire Line
+	950  3750 850  3750
+Wire Wire Line
+	950  4400 850  4400
+Wire Wire Line
+	950  5050 850  5050
+Text GLabel 850  5050 0    50   Input ~ 0
+ROW2
+Text GLabel 1200 3100 1    50   Input ~ 0
+COL0
+Connection ~ 1200 5300
+Text GLabel 850  6350 0    50   Input ~ 0
+ROW4
+Text GLabel 850  5700 0    50   Input ~ 0
+ROW3
+Wire Wire Line
+	950  6350 850  6350
+Wire Wire Line
+	950  5700 850  5700
+Wire Wire Line
+	1200 5950 1200 5300
+Wire Wire Line
+	950  6150 1000 6150
+$Comp
+L Device:D_Small D20
+U 1 1 617CCEB8
+P 950 6250
+F 0 "D20" V 977 6182 39  0000 R CNN
+F 1 "D_Small" V 913 6182 26  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 950 6250 50  0001 C CNN
+F 3 "~" V 950 6250 50  0001 C CNN
+	1    950  6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX20
+U 1 1 617CCEB2
+P 1050 6000
+F 0 "MX20" H 1024 6223 60  0000 C CNN
+F 1 "MX-NoLED" H 1024 6149 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 425 5975 60  0001 C CNN
+F 3 "" H 425 5975 60  0001 C CNN
+	1    1050 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  5500 1000 5500
+$Comp
+L Device:D_Small D15
+U 1 1 617CCEAB
+P 950 5600
+F 0 "D15" V 977 5532 39  0000 R CNN
+F 1 "D_Small" V 913 5532 26  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 950 5600 50  0001 C CNN
+F 3 "~" V 950 5600 50  0001 C CNN
+	1    950  5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX15
+U 1 1 617CCEA5
+P 1050 5350
+F 0 "MX15" H 1024 5573 60  0000 C CNN
+F 1 "MX-NoLED" H 1024 5499 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 425 5325 60  0001 C CNN
+F 3 "" H 425 5325 60  0001 C CNN
+	1    1050 5350
+	1    0    0    -1  
+$EndComp
+$Comp
 L MX_Alps_Hybrid:MX-NoLED MX1
 U 1 1 6170EB72
-P 1500 1450
-F 0 "MX1" H 1474 1673 60  0000 C CNN
-F 1 "MX-NoLED" H 1474 1599 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 875 1425 60  0001 C CNN
-F 3 "" H 875 1425 60  0001 C CNN
-	1    1500 1450
+P 1500 3400
+F 0 "MX1" H 1474 3623 60  0000 C CNN
+F 1 "MX-NoLED" H 1474 3549 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 875 3375 60  0001 C CNN
+F 3 "" H 875 3375 60  0001 C CNN
+	1    1500 3400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_Small D1
 U 1 1 6171A444
-P 1400 1700
-F 0 "D1" V 1427 1632 39  0000 R CNN
-F 1 "D_Small" V 1363 1632 26  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 1400 1700 50  0001 C CNN
-F 3 "~" V 1400 1700 50  0001 C CNN
-	1    1400 1700
+P 1400 3650
+F 0 "D1" V 1427 3582 39  0000 R CNN
+F 1 "D_Small" V 1363 3582 26  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 1400 3650 50  0001 C CNN
+F 3 "~" V 1400 3650 50  0001 C CNN
+	1    1400 3650
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1400 1600 1450 1600
+	1400 3550 1450 3550
 $Comp
 L Device:D_Small D2
 U 1 1 6172ED6F
-P 1850 1700
-F 0 "D2" V 1877 1632 39  0000 R CNN
-F 1 "D_Small" V 1813 1632 26  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 1850 1700 50  0001 C CNN
-F 3 "~" V 1850 1700 50  0001 C CNN
-	1    1850 1700
+P 1850 3650
+F 0 "D2" V 1877 3582 39  0000 R CNN
+F 1 "D_Small" V 1813 3582 26  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 1850 3650 50  0001 C CNN
+F 3 "~" V 1850 3650 50  0001 C CNN
+	1    1850 3650
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D_Small D3
 U 1 1 617301F6
-P 2300 1700
-F 0 "D3" V 2327 1632 39  0000 R CNN
-F 1 "D_Small" V 2263 1632 26  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 2300 1700 50  0001 C CNN
-F 3 "~" V 2300 1700 50  0001 C CNN
-	1    2300 1700
+P 2300 3650
+F 0 "D3" V 2327 3582 39  0000 R CNN
+F 1 "D_Small" V 2263 3582 26  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 2300 3650 50  0001 C CNN
+F 3 "~" V 2300 3650 50  0001 C CNN
+	1    2300 3650
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2750 1600 2800 1600
+	2750 3550 2800 3550
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX3
 U 1 1 617301E9
-P 2400 1450
-F 0 "MX3" H 2374 1673 60  0000 C CNN
-F 1 "MX-NoLED" H 2374 1599 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 1775 1425 60  0001 C CNN
-F 3 "" H 1775 1425 60  0001 C CNN
-	1    2400 1450
+P 2400 3400
+F 0 "MX3" H 2374 3623 60  0000 C CNN
+F 1 "MX-NoLED" H 2374 3549 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 1775 3375 60  0001 C CNN
+F 3 "" H 1775 3375 60  0001 C CNN
+	1    2400 3400
 	1    0    0    -1  
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX2
 U 1 1 6172D487
-P 1950 1450
-F 0 "MX2" H 1924 1673 60  0000 C CNN
-F 1 "MX-NoLED" H 1924 1599 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 1325 1425 60  0001 C CNN
-F 3 "" H 1325 1425 60  0001 C CNN
-	1    1950 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX4
-U 1 1 617301FC
-P 2850 1450
-F 0 "MX4" H 2824 1673 60  0000 C CNN
-F 1 "MX-NoLED" H 2824 1599 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 2225 1425 60  0001 C CNN
-F 3 "" H 2225 1425 60  0001 C CNN
-	1    2850 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D4
-U 1 1 61730202
-P 2750 1700
-F 0 "D4" V 2777 1632 39  0000 R CNN
-F 1 "D_Small" V 2713 1632 26  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 2750 1700 50  0001 C CNN
-F 3 "~" V 2750 1700 50  0001 C CNN
-	1    2750 1700
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1850 1600 1900 1600
-Wire Wire Line
-	2300 1600 2350 1600
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX6
-U 1 1 61733ABF
-P 1500 2100
-F 0 "MX6" H 1474 2323 60  0000 C CNN
-F 1 "MX-NoLED" H 1474 2249 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 875 2075 60  0001 C CNN
-F 3 "" H 875 2075 60  0001 C CNN
-	1    1500 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D6
-U 1 1 61733AC5
-P 1400 2350
-F 0 "D6" V 1427 2282 39  0000 R CNN
-F 1 "D_Small" V 1363 2282 26  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 1400 2350 50  0001 C CNN
-F 3 "~" V 1400 2350 50  0001 C CNN
-	1    1400 2350
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1400 2250 1450 2250
-$Comp
-L Device:D_Small D7
-U 1 1 61733ACC
-P 1850 2350
-F 0 "D7" V 1877 2282 39  0000 R CNN
-F 1 "D_Small" V 1813 2282 26  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 1850 2350 50  0001 C CNN
-F 3 "~" V 1850 2350 50  0001 C CNN
-	1    1850 2350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_Small D8
-U 1 1 61733AD2
-P 2300 2350
-F 0 "D8" V 2327 2282 39  0000 R CNN
-F 1 "D_Small" V 2263 2282 26  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 2300 2350 50  0001 C CNN
-F 3 "~" V 2300 2350 50  0001 C CNN
-	1    2300 2350
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2750 2250 2800 2250
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX8
-U 1 1 61733AD9
-P 2400 2100
-F 0 "MX8" H 2374 2323 60  0000 C CNN
-F 1 "MX-NoLED" H 2374 2249 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 1775 2075 60  0001 C CNN
-F 3 "" H 1775 2075 60  0001 C CNN
-	1    2400 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX7
-U 1 1 61733ADF
-P 1950 2100
-F 0 "MX7" H 1924 2323 60  0000 C CNN
-F 1 "MX-NoLED" H 1924 2249 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 1325 2075 60  0001 C CNN
-F 3 "" H 1325 2075 60  0001 C CNN
-	1    1950 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX9
-U 1 1 61733AE5
-P 2850 2100
-F 0 "MX9" H 2824 2323 60  0000 C CNN
-F 1 "MX-NoLED" H 2824 2249 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 2225 2075 60  0001 C CNN
-F 3 "" H 2225 2075 60  0001 C CNN
-	1    2850 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D9
-U 1 1 61733AEB
-P 2750 2350
-F 0 "D9" V 2777 2282 39  0000 R CNN
-F 1 "D_Small" V 2713 2282 26  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 2750 2350 50  0001 C CNN
-F 3 "~" V 2750 2350 50  0001 C CNN
-	1    2750 2350
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1850 2250 1900 2250
-Wire Wire Line
-	2300 2250 2350 2250
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX11
-U 1 1 61735E6F
-P 1500 2750
-F 0 "MX11" H 1474 2973 60  0000 C CNN
-F 1 "MX-NoLED" H 1474 2899 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 875 2725 60  0001 C CNN
-F 3 "" H 875 2725 60  0001 C CNN
-	1    1500 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D11
-U 1 1 61735E75
-P 1400 3000
-F 0 "D11" V 1427 2932 39  0000 R CNN
-F 1 "D_Small" V 1363 2932 26  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 1400 3000 50  0001 C CNN
-F 3 "~" V 1400 3000 50  0001 C CNN
-	1    1400 3000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1400 2900 1450 2900
-$Comp
-L Device:D_Small D12
-U 1 1 61735E7C
-P 1850 3000
-F 0 "D12" V 1877 2932 39  0000 R CNN
-F 1 "D_Small" V 1813 2932 26  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 1850 3000 50  0001 C CNN
-F 3 "~" V 1850 3000 50  0001 C CNN
-	1    1850 3000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_Small D13
-U 1 1 61735E82
-P 2300 3000
-F 0 "D13" V 2327 2932 39  0000 R CNN
-F 1 "D_Small" V 2263 2932 26  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 2300 3000 50  0001 C CNN
-F 3 "~" V 2300 3000 50  0001 C CNN
-	1    2300 3000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2750 2900 2800 2900
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX13
-U 1 1 61735E89
-P 2400 2750
-F 0 "MX13" H 2374 2973 60  0000 C CNN
-F 1 "MX-NoLED" H 2374 2899 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 1775 2725 60  0001 C CNN
-F 3 "" H 1775 2725 60  0001 C CNN
-	1    2400 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX12
-U 1 1 61735E8F
-P 1950 2750
-F 0 "MX12" H 1924 2973 60  0000 C CNN
-F 1 "MX-NoLED" H 1924 2899 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 1325 2725 60  0001 C CNN
-F 3 "" H 1325 2725 60  0001 C CNN
-	1    1950 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX14
-U 1 1 61735E95
-P 2850 2750
-F 0 "MX14" H 2824 2973 60  0000 C CNN
-F 1 "MX-NoLED" H 2824 2899 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 2225 2725 60  0001 C CNN
-F 3 "" H 2225 2725 60  0001 C CNN
-	1    2850 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D14
-U 1 1 61735E9B
-P 2750 3000
-F 0 "D14" V 2777 2932 39  0000 R CNN
-F 1 "D_Small" V 2713 2932 26  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 2750 3000 50  0001 C CNN
-F 3 "~" V 2750 3000 50  0001 C CNN
-	1    2750 3000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1850 2900 1900 2900
-Wire Wire Line
-	2300 2900 2350 2900
-Connection ~ 1650 1400
-Wire Wire Line
-	1650 1400 1650 1150
-Connection ~ 1650 2050
-Wire Wire Line
-	1650 2050 1650 1400
-Connection ~ 1650 2700
-Wire Wire Line
-	1650 2700 1650 2050
-Wire Wire Line
-	1650 3350 1650 2700
-Connection ~ 2100 1400
-Wire Wire Line
-	2100 1400 2100 1150
-Connection ~ 2100 2050
-Wire Wire Line
-	2100 2050 2100 1400
-Connection ~ 2100 2700
-Wire Wire Line
-	2100 2700 2100 2050
-Wire Wire Line
-	2100 3350 2100 2700
-Connection ~ 2550 1400
-Wire Wire Line
-	2550 1400 2550 1150
-Connection ~ 2550 2050
-Wire Wire Line
-	2550 2050 2550 1400
-Connection ~ 2550 2700
-Wire Wire Line
-	2550 2700 2550 2050
-Wire Wire Line
-	2550 3350 2550 2700
-Connection ~ 3000 1400
-Wire Wire Line
-	3000 1400 3000 1150
-Connection ~ 3000 2050
-Wire Wire Line
-	3000 2050 3000 1400
-Connection ~ 3000 2700
-Wire Wire Line
-	3000 2700 3000 2050
-Wire Wire Line
-	3000 3350 3000 2750
-Wire Wire Line
-	2750 1800 2300 1800
-Connection ~ 1400 1800
-Connection ~ 1850 1800
-Wire Wire Line
-	1850 1800 1400 1800
-Connection ~ 2300 1800
-Wire Wire Line
-	2300 1800 1850 1800
-Wire Wire Line
-	2750 2450 2300 2450
-Connection ~ 1400 2450
-Connection ~ 1850 2450
-Wire Wire Line
-	1850 2450 1400 2450
-Connection ~ 2300 2450
-Wire Wire Line
-	2300 2450 1850 2450
-Wire Wire Line
-	2750 3100 2300 3100
-Connection ~ 1400 3100
-Connection ~ 1850 3100
-Wire Wire Line
-	1850 3100 1400 3100
-Connection ~ 2300 3100
-Wire Wire Line
-	2300 3100 1850 3100
-Text GLabel 1650 1150 1    50   Input ~ 0
-COL1
-Text GLabel 2100 1150 1    50   Input ~ 0
-COL2
-Text GLabel 2550 1150 1    50   Input ~ 0
-COL3
-Text GLabel 3000 1150 1    50   Input ~ 0
-COL4
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX25
-U 1 1 617208A9
-P 2700 2800
-F 0 "MX25" H 2674 3023 60  0000 C CNN
-F 1 "MX-NoLED" H 2674 2949 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-2U-NoLED_tweak" H 2075 2775 60  0001 C CNN
-F 3 "" H 2075 2775 60  0001 C CNN
-	1    2700 2800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3000 2750 2850 2750
-Connection ~ 3000 2750
-Wire Wire Line
-	3000 2750 3000 2700
-Wire Wire Line
-	2650 2950 2700 2950
-Wire Wire Line
-	2700 2950 2700 2900
-Wire Wire Line
-	2700 2900 2750 2900
-Connection ~ 2750 2900
-Connection ~ 1650 3350
-Connection ~ 2100 3350
-Connection ~ 2550 3350
-Connection ~ 3000 3350
-Connection ~ 2750 4200
-Wire Wire Line
-	2700 4200 2750 4200
-Wire Wire Line
-	2700 4250 2700 4200
-Wire Wire Line
-	2650 4250 2700 4250
-Connection ~ 3000 4000
-Wire Wire Line
-	3000 4050 2850 4050
-Wire Wire Line
-	3000 4000 3000 4050
-Connection ~ 1850 4200
-Wire Wire Line
-	1800 4200 1850 4200
-Wire Wire Line
-	1800 4250 1800 4200
-Wire Wire Line
-	1750 4250 1800 4250
-Connection ~ 2100 4000
-Wire Wire Line
-	2100 4050 1950 4050
-Wire Wire Line
-	2100 4000 2100 4050
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX27
-U 1 1 6171F27F
-P 2700 4100
-F 0 "MX27" H 2674 4323 60  0000 C CNN
-F 1 "MX-NoLED" H 2674 4249 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-2U-NoLED_tweak" H 2075 4075 60  0001 C CNN
-F 3 "" H 2075 4075 60  0001 C CNN
-	1    2700 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX26
-U 1 1 6171DB05
-P 1800 4100
-F 0 "MX26" H 1774 4323 60  0000 C CNN
-F 1 "MX-NoLED" H 1774 4249 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-2U-NoLED_FLIPPED_tweak" H 1175 4075 60  0001 C CNN
-F 3 "" H 1175 4075 60  0001 C CNN
-	1    1800 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 4400 1850 4400
-Connection ~ 2300 4400
-Wire Wire Line
-	1850 4400 1400 4400
-Connection ~ 1850 4400
-Connection ~ 1400 4400
-Wire Wire Line
-	2750 4400 2300 4400
-Wire Wire Line
-	2300 3750 1850 3750
-Connection ~ 2300 3750
-Wire Wire Line
-	1850 3750 1400 3750
-Connection ~ 1850 3750
-Connection ~ 1400 3750
-Wire Wire Line
-	2750 3750 2300 3750
-Wire Wire Line
-	3000 4000 3000 3350
-Wire Wire Line
-	2550 4000 2550 3350
-Wire Wire Line
-	2100 4000 2100 3350
-Wire Wire Line
-	1650 4000 1650 3350
-Wire Wire Line
-	2300 4200 2350 4200
-Wire Wire Line
-	1850 4200 1900 4200
-$Comp
-L Device:D_Small D24
-U 1 1 6173A533
-P 2750 4300
-F 0 "D24" V 2777 4232 39  0000 R CNN
-F 1 "D_Small" V 2713 4232 26  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 2750 4300 50  0001 C CNN
-F 3 "~" V 2750 4300 50  0001 C CNN
-	1    2750 4300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX24
-U 1 1 6173A52D
-P 2850 4050
-F 0 "MX24" H 2824 4273 60  0000 C CNN
-F 1 "MX-NoLED" H 2824 4199 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 2225 4025 60  0001 C CNN
-F 3 "" H 2225 4025 60  0001 C CNN
-	1    2850 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX22
-U 1 1 6173A527
-P 1950 4050
-F 0 "MX22" H 1924 4273 60  0000 C CNN
-F 1 "MX-NoLED" H 1924 4199 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 1325 4025 60  0001 C CNN
-F 3 "" H 1325 4025 60  0001 C CNN
-	1    1950 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX23
-U 1 1 6173A521
-P 2400 4050
-F 0 "MX23" H 2374 4273 60  0000 C CNN
-F 1 "MX-NoLED" H 2374 4199 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 1775 4025 60  0001 C CNN
-F 3 "" H 1775 4025 60  0001 C CNN
-	1    2400 4050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2750 4200 2800 4200
-$Comp
-L Device:D_Small D23
-U 1 1 6173A51A
-P 2300 4300
-F 0 "D23" V 2327 4232 39  0000 R CNN
-F 1 "D_Small" V 2263 4232 26  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 2300 4300 50  0001 C CNN
-F 3 "~" V 2300 4300 50  0001 C CNN
-	1    2300 4300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_Small D22
-U 1 1 6173A514
-P 1850 4300
-F 0 "D22" V 1877 4232 39  0000 R CNN
-F 1 "D_Small" V 1813 4232 26  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 1850 4300 50  0001 C CNN
-F 3 "~" V 1850 4300 50  0001 C CNN
-	1    1850 4300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1400 4200 1450 4200
-$Comp
-L Device:D_Small D21
-U 1 1 6173A50D
-P 1400 4300
-F 0 "D21" V 1427 4232 39  0000 R CNN
-F 1 "D_Small" V 1363 4232 26  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 1400 4300 50  0001 C CNN
-F 3 "~" V 1400 4300 50  0001 C CNN
-	1    1400 4300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX21
-U 1 1 6173A507
-P 1500 4050
-F 0 "MX21" H 1474 4273 60  0000 C CNN
-F 1 "MX-NoLED" H 1474 4199 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 875 4025 60  0001 C CNN
-F 3 "" H 875 4025 60  0001 C CNN
-	1    1500 4050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 3550 2350 3550
-Wire Wire Line
-	1850 3550 1900 3550
-$Comp
-L Device:D_Small D19
-U 1 1 61737E51
-P 2750 3650
-F 0 "D19" V 2777 3582 39  0000 R CNN
-F 1 "D_Small" V 2713 3582 26  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 2750 3650 50  0001 C CNN
-F 3 "~" V 2750 3650 50  0001 C CNN
-	1    2750 3650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX19
-U 1 1 61737E4B
-P 2850 3400
-F 0 "MX19" H 2824 3623 60  0000 C CNN
-F 1 "MX-NoLED" H 2824 3549 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 2225 3375 60  0001 C CNN
-F 3 "" H 2225 3375 60  0001 C CNN
-	1    2850 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX17
-U 1 1 61737E45
 P 1950 3400
-F 0 "MX17" H 1924 3623 60  0000 C CNN
+F 0 "MX2" H 1924 3623 60  0000 C CNN
 F 1 "MX-NoLED" H 1924 3549 20  0000 C CNN
 F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 1325 3375 60  0001 C CNN
 F 3 "" H 1325 3375 60  0001 C CNN
@@ -919,62 +390,591 @@ F 3 "" H 1325 3375 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX18
-U 1 1 61737E3F
-P 2400 3400
-F 0 "MX18" H 2374 3623 60  0000 C CNN
-F 1 "MX-NoLED" H 2374 3549 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 1775 3375 60  0001 C CNN
-F 3 "" H 1775 3375 60  0001 C CNN
-	1    2400 3400
+L MX_Alps_Hybrid:MX-NoLED MX4
+U 1 1 617301FC
+P 2850 3400
+F 0 "MX4" H 2824 3623 60  0000 C CNN
+F 1 "MX-NoLED" H 2824 3549 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 2225 3375 60  0001 C CNN
+F 3 "" H 2225 3375 60  0001 C CNN
+	1    2850 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 61730202
+P 2750 3650
+F 0 "D4" V 2777 3582 39  0000 R CNN
+F 1 "D_Small" V 2713 3582 26  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 2750 3650 50  0001 C CNN
+F 3 "~" V 2750 3650 50  0001 C CNN
+	1    2750 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1850 3550 1900 3550
+Wire Wire Line
+	2300 3550 2350 3550
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX6
+U 1 1 61733ABF
+P 1500 4050
+F 0 "MX6" H 1474 4273 60  0000 C CNN
+F 1 "MX-NoLED" H 1474 4199 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 875 4025 60  0001 C CNN
+F 3 "" H 875 4025 60  0001 C CNN
+	1    1500 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D6
+U 1 1 61733AC5
+P 1400 4300
+F 0 "D6" V 1427 4232 39  0000 R CNN
+F 1 "D_Small" V 1363 4232 26  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 1400 4300 50  0001 C CNN
+F 3 "~" V 1400 4300 50  0001 C CNN
+	1    1400 4300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1400 4200 1450 4200
+$Comp
+L Device:D_Small D7
+U 1 1 61733ACC
+P 1850 4300
+F 0 "D7" V 1877 4232 39  0000 R CNN
+F 1 "D_Small" V 1813 4232 26  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 1850 4300 50  0001 C CNN
+F 3 "~" V 1850 4300 50  0001 C CNN
+	1    1850 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D8
+U 1 1 61733AD2
+P 2300 4300
+F 0 "D8" V 2327 4232 39  0000 R CNN
+F 1 "D_Small" V 2263 4232 26  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 2300 4300 50  0001 C CNN
+F 3 "~" V 2300 4300 50  0001 C CNN
+	1    2300 4300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 4200 2800 4200
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX8
+U 1 1 61733AD9
+P 2400 4050
+F 0 "MX8" H 2374 4273 60  0000 C CNN
+F 1 "MX-NoLED" H 2374 4199 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 1775 4025 60  0001 C CNN
+F 3 "" H 1775 4025 60  0001 C CNN
+	1    2400 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX7
+U 1 1 61733ADF
+P 1950 4050
+F 0 "MX7" H 1924 4273 60  0000 C CNN
+F 1 "MX-NoLED" H 1924 4199 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 1325 4025 60  0001 C CNN
+F 3 "" H 1325 4025 60  0001 C CNN
+	1    1950 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX9
+U 1 1 61733AE5
+P 2850 4050
+F 0 "MX9" H 2824 4273 60  0000 C CNN
+F 1 "MX-NoLED" H 2824 4199 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 2225 4025 60  0001 C CNN
+F 3 "" H 2225 4025 60  0001 C CNN
+	1    2850 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D9
+U 1 1 61733AEB
+P 2750 4300
+F 0 "D9" V 2777 4232 39  0000 R CNN
+F 1 "D_Small" V 2713 4232 26  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 2750 4300 50  0001 C CNN
+F 3 "~" V 2750 4300 50  0001 C CNN
+	1    2750 4300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1850 4200 1900 4200
+Wire Wire Line
+	2300 4200 2350 4200
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX11
+U 1 1 61735E6F
+P 1500 4700
+F 0 "MX11" H 1474 4923 60  0000 C CNN
+F 1 "MX-NoLED" H 1474 4849 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 875 4675 60  0001 C CNN
+F 3 "" H 875 4675 60  0001 C CNN
+	1    1500 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D11
+U 1 1 61735E75
+P 1400 4950
+F 0 "D11" V 1427 4882 39  0000 R CNN
+F 1 "D_Small" V 1363 4882 26  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 1400 4950 50  0001 C CNN
+F 3 "~" V 1400 4950 50  0001 C CNN
+	1    1400 4950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1400 4850 1450 4850
+$Comp
+L Device:D_Small D12
+U 1 1 61735E7C
+P 1850 4950
+F 0 "D12" V 1877 4882 39  0000 R CNN
+F 1 "D_Small" V 1813 4882 26  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 1850 4950 50  0001 C CNN
+F 3 "~" V 1850 4950 50  0001 C CNN
+	1    1850 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D13
+U 1 1 61735E82
+P 2300 4950
+F 0 "D13" V 2327 4882 39  0000 R CNN
+F 1 "D_Small" V 2263 4882 26  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 2300 4950 50  0001 C CNN
+F 3 "~" V 2300 4950 50  0001 C CNN
+	1    2300 4950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 4850 2800 4850
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX13
+U 1 1 61735E89
+P 2400 4700
+F 0 "MX13" H 2374 4923 60  0000 C CNN
+F 1 "MX-NoLED" H 2374 4849 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 1775 4675 60  0001 C CNN
+F 3 "" H 1775 4675 60  0001 C CNN
+	1    2400 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX12
+U 1 1 61735E8F
+P 1950 4700
+F 0 "MX12" H 1924 4923 60  0000 C CNN
+F 1 "MX-NoLED" H 1924 4849 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 1325 4675 60  0001 C CNN
+F 3 "" H 1325 4675 60  0001 C CNN
+	1    1950 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX14
+U 1 1 61735E95
+P 2850 4700
+F 0 "MX14" H 2824 4923 60  0000 C CNN
+F 1 "MX-NoLED" H 2824 4849 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 2225 4675 60  0001 C CNN
+F 3 "" H 2225 4675 60  0001 C CNN
+	1    2850 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D14
+U 1 1 61735E9B
+P 2750 4950
+F 0 "D14" V 2777 4882 39  0000 R CNN
+F 1 "D_Small" V 2713 4882 26  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 2750 4950 50  0001 C CNN
+F 3 "~" V 2750 4950 50  0001 C CNN
+	1    2750 4950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1850 4850 1900 4850
+Wire Wire Line
+	2300 4850 2350 4850
+Connection ~ 1650 3350
+Wire Wire Line
+	1650 3350 1650 3100
+Connection ~ 1650 4000
+Wire Wire Line
+	1650 4000 1650 3350
+Connection ~ 1650 4650
+Wire Wire Line
+	1650 4650 1650 4000
+Wire Wire Line
+	1650 5300 1650 4650
+Connection ~ 2100 3350
+Wire Wire Line
+	2100 3350 2100 3100
+Connection ~ 2100 4000
+Wire Wire Line
+	2100 4000 2100 3350
+Connection ~ 2100 4650
+Wire Wire Line
+	2100 4650 2100 4000
+Wire Wire Line
+	2100 5300 2100 4650
+Connection ~ 2550 3350
+Wire Wire Line
+	2550 3350 2550 3100
+Connection ~ 2550 4000
+Wire Wire Line
+	2550 4000 2550 3350
+Connection ~ 2550 4650
+Wire Wire Line
+	2550 4650 2550 4000
+Wire Wire Line
+	2550 5300 2550 4650
+Connection ~ 3000 3350
+Wire Wire Line
+	3000 3350 3000 3100
+Connection ~ 3000 4000
+Wire Wire Line
+	3000 4000 3000 3350
+Connection ~ 3000 4650
+Wire Wire Line
+	3000 4650 3000 4000
+Wire Wire Line
+	3000 5300 3000 4700
+Wire Wire Line
+	2750 3750 2300 3750
+Connection ~ 1400 3750
+Connection ~ 1850 3750
+Wire Wire Line
+	1850 3750 1400 3750
+Connection ~ 2300 3750
+Wire Wire Line
+	2300 3750 1850 3750
+Wire Wire Line
+	2750 4400 2300 4400
+Connection ~ 1400 4400
+Connection ~ 1850 4400
+Wire Wire Line
+	1850 4400 1400 4400
+Connection ~ 2300 4400
+Wire Wire Line
+	2300 4400 1850 4400
+Wire Wire Line
+	2750 5050 2300 5050
+Connection ~ 1400 5050
+Connection ~ 1850 5050
+Wire Wire Line
+	1850 5050 1400 5050
+Connection ~ 2300 5050
+Wire Wire Line
+	2300 5050 1850 5050
+Text GLabel 1650 3100 1    50   Input ~ 0
+COL1
+Text GLabel 2100 3100 1    50   Input ~ 0
+COL2
+Text GLabel 2550 3100 1    50   Input ~ 0
+COL3
+Text GLabel 3000 3100 1    50   Input ~ 0
+COL4
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX25
+U 1 1 617208A9
+P 2700 4750
+F 0 "MX25" H 2674 4973 60  0000 C CNN
+F 1 "MX-NoLED" H 2674 4899 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-2U-NoLED_tweak" H 2075 4725 60  0001 C CNN
+F 3 "" H 2075 4725 60  0001 C CNN
+	1    2700 4750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2750 3550 2800 3550
+	3000 4700 2850 4700
+Connection ~ 3000 4700
+Wire Wire Line
+	3000 4700 3000 4650
+Wire Wire Line
+	2650 4900 2700 4900
+Wire Wire Line
+	2700 4900 2700 4850
+Wire Wire Line
+	2700 4850 2750 4850
+Connection ~ 2750 4850
+Connection ~ 1650 5300
+Connection ~ 2100 5300
+Connection ~ 2550 5300
+Connection ~ 3000 5300
+Connection ~ 2750 6150
+Wire Wire Line
+	2700 6150 2750 6150
+Wire Wire Line
+	2700 6200 2700 6150
+Wire Wire Line
+	2650 6200 2700 6200
+Connection ~ 3000 5950
+Wire Wire Line
+	3000 6000 2850 6000
+Wire Wire Line
+	3000 5950 3000 6000
+Connection ~ 1850 6150
+Wire Wire Line
+	1800 6150 1850 6150
+Wire Wire Line
+	1800 6200 1800 6150
+Wire Wire Line
+	1750 6200 1800 6200
+Connection ~ 2100 5950
+Wire Wire Line
+	2100 6000 1950 6000
+Wire Wire Line
+	2100 5950 2100 6000
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX27
+U 1 1 6171F27F
+P 2700 6050
+F 0 "MX27" H 2674 6273 60  0000 C CNN
+F 1 "MX-NoLED" H 2674 6199 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-2U-NoLED_tweak" H 2075 6025 60  0001 C CNN
+F 3 "" H 2075 6025 60  0001 C CNN
+	1    2700 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX26
+U 1 1 6171DB05
+P 1800 6050
+F 0 "MX26" H 1774 6273 60  0000 C CNN
+F 1 "MX-NoLED" H 1774 6199 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-2U-NoLED_FLIPPED_tweak" H 1175 6025 60  0001 C CNN
+F 3 "" H 1175 6025 60  0001 C CNN
+	1    1800 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 6350 1850 6350
+Connection ~ 2300 6350
+Wire Wire Line
+	1850 6350 1400 6350
+Connection ~ 1850 6350
+Connection ~ 1400 6350
+Wire Wire Line
+	2750 6350 2300 6350
+Wire Wire Line
+	2300 5700 1850 5700
+Connection ~ 2300 5700
+Wire Wire Line
+	1850 5700 1400 5700
+Connection ~ 1850 5700
+Connection ~ 1400 5700
+Wire Wire Line
+	2750 5700 2300 5700
+Wire Wire Line
+	3000 5950 3000 5300
+Wire Wire Line
+	2550 5950 2550 5300
+Wire Wire Line
+	2100 5950 2100 5300
+Wire Wire Line
+	1650 5950 1650 5300
+Wire Wire Line
+	2300 6150 2350 6150
+Wire Wire Line
+	1850 6150 1900 6150
+$Comp
+L Device:D_Small D24
+U 1 1 6173A533
+P 2750 6250
+F 0 "D24" V 2777 6182 39  0000 R CNN
+F 1 "D_Small" V 2713 6182 26  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 2750 6250 50  0001 C CNN
+F 3 "~" V 2750 6250 50  0001 C CNN
+	1    2750 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX24
+U 1 1 6173A52D
+P 2850 6000
+F 0 "MX24" H 2824 6223 60  0000 C CNN
+F 1 "MX-NoLED" H 2824 6149 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 2225 5975 60  0001 C CNN
+F 3 "" H 2225 5975 60  0001 C CNN
+	1    2850 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX22
+U 1 1 6173A527
+P 1950 6000
+F 0 "MX22" H 1924 6223 60  0000 C CNN
+F 1 "MX-NoLED" H 1924 6149 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 1325 5975 60  0001 C CNN
+F 3 "" H 1325 5975 60  0001 C CNN
+	1    1950 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX23
+U 1 1 6173A521
+P 2400 6000
+F 0 "MX23" H 2374 6223 60  0000 C CNN
+F 1 "MX-NoLED" H 2374 6149 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 1775 5975 60  0001 C CNN
+F 3 "" H 1775 5975 60  0001 C CNN
+	1    2400 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 6150 2800 6150
+$Comp
+L Device:D_Small D23
+U 1 1 6173A51A
+P 2300 6250
+F 0 "D23" V 2327 6182 39  0000 R CNN
+F 1 "D_Small" V 2263 6182 26  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 2300 6250 50  0001 C CNN
+F 3 "~" V 2300 6250 50  0001 C CNN
+	1    2300 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D22
+U 1 1 6173A514
+P 1850 6250
+F 0 "D22" V 1877 6182 39  0000 R CNN
+F 1 "D_Small" V 1813 6182 26  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 1850 6250 50  0001 C CNN
+F 3 "~" V 1850 6250 50  0001 C CNN
+	1    1850 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1400 6150 1450 6150
+$Comp
+L Device:D_Small D21
+U 1 1 6173A50D
+P 1400 6250
+F 0 "D21" V 1427 6182 39  0000 R CNN
+F 1 "D_Small" V 1363 6182 26  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 1400 6250 50  0001 C CNN
+F 3 "~" V 1400 6250 50  0001 C CNN
+	1    1400 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX21
+U 1 1 6173A507
+P 1500 6000
+F 0 "MX21" H 1474 6223 60  0000 C CNN
+F 1 "MX-NoLED" H 1474 6149 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 875 5975 60  0001 C CNN
+F 3 "" H 875 5975 60  0001 C CNN
+	1    1500 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 5500 2350 5500
+Wire Wire Line
+	1850 5500 1900 5500
+$Comp
+L Device:D_Small D19
+U 1 1 61737E51
+P 2750 5600
+F 0 "D19" V 2777 5532 39  0000 R CNN
+F 1 "D_Small" V 2713 5532 26  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 2750 5600 50  0001 C CNN
+F 3 "~" V 2750 5600 50  0001 C CNN
+	1    2750 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX19
+U 1 1 61737E4B
+P 2850 5350
+F 0 "MX19" H 2824 5573 60  0000 C CNN
+F 1 "MX-NoLED" H 2824 5499 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 2225 5325 60  0001 C CNN
+F 3 "" H 2225 5325 60  0001 C CNN
+	1    2850 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX17
+U 1 1 61737E45
+P 1950 5350
+F 0 "MX17" H 1924 5573 60  0000 C CNN
+F 1 "MX-NoLED" H 1924 5499 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 1325 5325 60  0001 C CNN
+F 3 "" H 1325 5325 60  0001 C CNN
+	1    1950 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX18
+U 1 1 61737E3F
+P 2400 5350
+F 0 "MX18" H 2374 5573 60  0000 C CNN
+F 1 "MX-NoLED" H 2374 5499 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 1775 5325 60  0001 C CNN
+F 3 "" H 1775 5325 60  0001 C CNN
+	1    2400 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 5500 2800 5500
 $Comp
 L Device:D_Small D18
 U 1 1 61737E38
-P 2300 3650
-F 0 "D18" V 2327 3582 39  0000 R CNN
-F 1 "D_Small" V 2263 3582 26  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 2300 3650 50  0001 C CNN
-F 3 "~" V 2300 3650 50  0001 C CNN
-	1    2300 3650
+P 2300 5600
+F 0 "D18" V 2327 5532 39  0000 R CNN
+F 1 "D_Small" V 2263 5532 26  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 2300 5600 50  0001 C CNN
+F 3 "~" V 2300 5600 50  0001 C CNN
+	1    2300 5600
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:D_Small D17
 U 1 1 61737E32
-P 1850 3650
-F 0 "D17" V 1877 3582 39  0000 R CNN
-F 1 "D_Small" V 1813 3582 26  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 1850 3650 50  0001 C CNN
-F 3 "~" V 1850 3650 50  0001 C CNN
-	1    1850 3650
+P 1850 5600
+F 0 "D17" V 1877 5532 39  0000 R CNN
+F 1 "D_Small" V 1813 5532 26  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 1850 5600 50  0001 C CNN
+F 3 "~" V 1850 5600 50  0001 C CNN
+	1    1850 5600
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1400 3550 1450 3550
+	1400 5500 1450 5500
 $Comp
 L Device:D_Small D16
 U 1 1 61737E2B
-P 1400 3650
-F 0 "D16" V 1427 3582 39  0000 R CNN
-F 1 "D_Small" V 1363 3582 26  0000 R CNN
-F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 1400 3650 50  0001 C CNN
-F 3 "~" V 1400 3650 50  0001 C CNN
-	1    1400 3650
+P 1400 5600
+F 0 "D16" V 1427 5532 39  0000 R CNN
+F 1 "D_Small" V 1363 5532 26  0000 R CNN
+F 2 "mini-general-tweaks:D_SOD123_axial-dual" V 1400 5600 50  0001 C CNN
+F 3 "~" V 1400 5600 50  0001 C CNN
+	1    1400 5600
 	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX16
 U 1 1 61737E25
-P 1500 3400
-F 0 "MX16" H 1474 3623 60  0000 C CNN
-F 1 "MX-NoLED" H 1474 3549 20  0000 C CNN
-F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 875 3375 60  0001 C CNN
-F 3 "" H 875 3375 60  0001 C CNN
-	1    1500 3400
+P 1500 5350
+F 0 "MX16" H 1474 5573 60  0000 C CNN
+F 1 "MX-NoLED" H 1474 5499 20  0000 C CNN
+F 2 "mini-MX-Tweaks:MXOnly-1U-NoLED_tweak" H 875 5325 60  0001 C CNN
+F 3 "" H 875 5325 60  0001 C CNN
+	1    1500 5350
 	1    0    0    -1  
 $EndComp
 $Comp
