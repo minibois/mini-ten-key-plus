@@ -5,14 +5,14 @@ EELAYER END
 $Descr User 6102 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Title "Ten Key Plus"
+Date "2021-12-21"
+Rev "1.a"
+Comp "Full License: https://github.com/minibois/ten-key-plus/tree/master/LICENSE"
+Comment1 "of CERN_OHL-S v2 (https://ohwr.org/cern_ohl_s_v2.txt)"
+Comment2 "You may redistribute and modify this source and make products using it under the terms"
+Comment3 "This schematic describes Open Hardware and is licensed under the CERN-OHL-S v2."
+Comment4 "Copyright minibois 2021. "
 $EndDescr
 $Comp
 L Graphic:Logo_Open_Hardware_Large #LOGO0
@@ -1198,8 +1198,6 @@ Wire Notes Line
 Wire Notes Line
 	3200 500  3200 1650
 Wire Notes Line
-	3200 4800 5300 4800
-Wire Notes Line
 	3200 3950 3200 4800
 Wire Notes Line
 	3200 500  5600 500 
@@ -1223,4 +1221,6 @@ Wire Notes Line
 	3200 3950 5600 3950
 Wire Notes Line
 	3200 4250 5600 4250
+Wire Notes Line
+	3200 4800 5600 4800
 $EndSCHEMATC
