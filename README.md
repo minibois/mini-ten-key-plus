@@ -1,6 +1,8 @@
 # mini-ten-key-plus
 ## Repository for the mini Ten Key Plus, a Pro Micro based numpad/macropad PCB, suitable for up to 25 MX(-like) keyswitches and a (tactile) rotary encoder.
-![mini-Ten-Key-Plus-Built](/Documents/Images/Full.png)
+It is recommended to download the latest release of this project: https://github.com/minibois/ten-key-plus/releases
+
+![mini-Ten-Key-Plus-Built](/Documents/Images/Full.jpeg)
  This PCB can be used using a 3D printed plate and case, also provided in this repository
 
 ![mini-Ten-Key-Plus-PCB-Render](/Documents/Images/PCB.png)
